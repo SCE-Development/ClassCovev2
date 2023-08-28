@@ -1,2 +1,2 @@
-# ClassCovev2
+# class-cove
 Class Cove's rewrite.

@@ -21,15 +21,11 @@ export default function Home() {
         email,
         password,
       })
-    addUserToDB()
     supabase.auth.onAuthStateChange((event) => {
       if (event == "SIGNED_IN") {
         router.push('/courses')
       }
     })
-  }
-  async function addUserToDB() {
-
   }
 
   return(

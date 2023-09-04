@@ -16,6 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* can add header here and import RootLayout later on */}
       <body className={inter.className}>{children}</body>
     </html>
   )

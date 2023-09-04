@@ -15,7 +15,7 @@ export default function AuthForm(props: any) {
       theme='dark'
       showLinks={false}
       providers={['github']}
-      redirectTo='http://localhost:3000/courses'
+      redirectTo='http://localhost:3000/auth/callback'
     />
   )
 }

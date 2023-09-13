@@ -1,0 +1,51 @@
+.dropdown {
+  background-color: white;
+  border: 1px solid #ccc;
+  color: #4b6aa8;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#dashboard-content {
+  margin-top: 0px;
+}
+
+.dashboard-section,
+.recommendation-section {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+
+}
+
+.dashboard-container {
+  width: 400px;
+  align-self: center;
+  min-height: 400px;
+  background-color: rgb(212, 245, 245);
+  padding: 20px;;
+  border: black solid 3px;
+  border-radius: 5%;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.recommendation-container {
+  width: 400px;
+  align-self: center;
+  min-height: 400px;
+  max-height: 800px;
+  background-color: rgb(212, 245, 245);
+  padding: 20px;;
+  border: black solid 3px;
+  border-radius: 5%;
+  box-shadow: 10px 5px 5px grey;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.link {
+  margin-top: 10px;
+}
